@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 import {AppRoutingModule} from "./app-routing.module";
 import {AppComponent} from "./app.component";
-import { TableComponent } from './table/table.component';
+import {TableComponent} from './table/table.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {A11yModule} from "@angular/cdk/a11y";
 import {ClipboardModule} from "@angular/cdk/clipboard";
@@ -12,7 +12,7 @@ import {MatTreeModule} from "@angular/material/tree";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {ScrollingModule} from "@angular/cdk/scrolling";
-import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatPaginator, MatPaginatorModule} from "@angular/material/paginator";
 import {MatInputModule} from "@angular/material/input";
 import {MatExpansionModule} from "@angular/material/expansion";
 import {MatDatepickerModule} from "@angular/material/datepicker";
@@ -101,9 +101,12 @@ import {MatDividerModule} from "@angular/material/divider";
     OverlayModule,
     PortalModule,
     ScrollingModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
 
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
