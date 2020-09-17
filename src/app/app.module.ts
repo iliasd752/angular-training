@@ -47,6 +47,7 @@ import {MatBadgeModule} from "@angular/material/badge";
 import {MatBottomSheetModule} from "@angular/material/bottom-sheet";
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatDividerModule} from "@angular/material/divider";
+import {MatFormField, MatFormFieldModule} from "@angular/material/form-field";
 
 @NgModule({
   declarations: [
@@ -103,6 +104,7 @@ import {MatDividerModule} from "@angular/material/divider";
     ScrollingModule,
     MatPaginatorModule,
     MatSortModule,
+    MatFormFieldModule,
   ],
 
   providers: [],
