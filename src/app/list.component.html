@@ -1,0 +1,9 @@
+<mat-selection-list #cats>
+  <mat-list-option *ngFor="let cat of categories">
+    {{cat}}
+  </mat-list-option>
+</mat-selection-list>
+
+<p>
+  Options selected: {{cats.selectedOptions.selected.length}}
+</p>
